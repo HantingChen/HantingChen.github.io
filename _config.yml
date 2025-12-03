@@ -117,7 +117,7 @@ url: "https://HantingChen.github.io" # 记得改成你的
 # Site Author
 author:
   name: "Hanting Chen (陈汉亭)"
-  avatar: "/assets/images/profile.jpg" # 请务必上传一张职业照到这个路径
+  avatar: "/assets/human.jpg" # 请务必上传一张职业照到这个路径
   bio: "<b>AI Researcher</b><br>Focus on LLM Architecture, Compression & Acceleration."
   location: "Beijing, China"
   email: "chenhanting@pku.edu.cn"
