@@ -94,7 +94,7 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
   Zhijun Tu, Kunpeng Du, <strong>Hanting Chen</strong>, H Wang, W Li, J Hu, Y Wang
 </div>
 *NTIRE 2023 Challenge Winner*
-> **TL;DR:** An evolved version of IPT using hierarchical attention mechanisms, which won the **Champion** of the NTIRE 2023 Image Denoising Challenge.
+> **TL;DR:** An evolved version of IPT using hierarchical attention mechanisms, which won <span style="color:red">the **Champion** of the NTIRE 2023 Image Denoising Challenge.</span> �
 > [[PDF]](https://arxiv.org/pdf/2404.00633)
 
 #### The AdderNet Series
@@ -103,6 +103,6 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 <div style="color: #444; font-size: 0.95rem; margin: 4px 0;">
   <strong>Hanting Chen</strong>, Yunhe Wang, C Xu, B Shi, C Xu, Q Tian, C Xu
 </div>
-*CVPR 2020* <span style="color:red">**(Oral Presentation)**</span>
+*CVPR 2020* 
 > **TL;DR:** A pioneering work that replaces massive multiplications in CNNs with cheaper additions (L1-norm distance), significantly reducing energy consumption on hardware while maintaining comparable accuracy.
 > [[PDF]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_AdderNet_Do_We_Really_Need_Multiplications_in_Deep_Learning_CVPR_2020_paper.pdf)
