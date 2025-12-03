@@ -34,14 +34,14 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 ***Hanting Chen**, Yasheng Wang, Kai Han, ... Yunhe Wang*
 
-> **TL;DR:** We present **Pangu Embedded**, a reasoning-optimized LLM for Ascend NPUs featuring "Fast & Slow" thinking modes. It utilizes a two-stage training (Distillation & RL with MARS) and a dynamic complexity-aware mode selection to balance latency and reasoning depth.
+> **TL;DR:** We present a reasoning-optimized LLM featuring "Fast & Slow" thinking modes. It utilizes a two-stage training (Distillation & RL with MARS) and a dynamic complexity-aware mode selection to balance latency and reasoning depth.
 > [[PDF]](https://arxiv.org/pdf/2505.22375) [[Model]](https://gitcode.com/ascend-tribe/openPangu-Embedded-7B-V1.1.git)
 
 **[2] Revealing the Power of Post-Training for Small Language Models via Knowledge Distillation**
 
 *Miao Rang, Zhenni Bi, Hang Zhou, **Hanting Chen**, ... Yunhe Wang*
 
-> **TL;DR:** A systematic post-training pipeline (Curriculum SFT + Offline On-policy KD) that enables 1B-parameter models to achieve SOTA performance. This solution is tailored for deploying high-performance LLMs on resource-constrained **edge devices**.
+> **TL;DR:** A systematic post-training pipeline (Curriculum SFT + Offline On-policy KD) that enables 1B-parameter models to achieve SOTA performance. This solution is tailored for deploying high-performance LLMs on resource-constrained edge devices.
 > [[PDF]](https://arxiv.org/pdf/2509.26497) [[Model]](https://gitcode.com/ascend-tribe/openPangu-Embedded-1B-V1.1.git)
 
 **[3] Enhancing Large Language Models through Adaptive Tokenizers**
@@ -58,14 +58,14 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 *Zhijun Tu, **Hanting Chen**, Siqi Liu, ... Yunhe Wang*
 
-> **TL;DR:** Unlike existing methods that train 1-bit LLMs from scratch, we enable **1-bit quantization from pre-trained models**. By using consistent progressive training and binary-aware initialization, we significantly reduce training costs while maintaining high accuracy.
+> **TL;DR:** Unlike existing methods that train 1-bit LLMs from scratch, we enable 1-bit quantization from pre-trained models. By using consistent progressive training and binary-aware initialization, we significantly reduce training costs while maintaining high accuracy.
 > [[PDF]](https://arxiv.org/pdf/2508.06974)
 
 **[5] Pangu Light: Weight Re-Initialization for Pruning and Accelerating LLMs**
 
 ***Hanting Chen**, Jiarui Qin, Jialong Guo, ... Yunhe Wang*
 
-> **TL;DR:** A structured pruning framework for LLMs that solves the "aggressive pruning" degradation problem via novel **Weight Re-Initialization** techniques (CLAP & SLNP). It outperforms Nemotron and Qwen3 series in accuracy-efficiency trade-offs on Ascend NPUs.
+> **TL;DR:** A structured pruning framework for LLMs that solves the "aggressive pruning" degradation problem via novel Weight Re-Initialization techniques. It outperforms Nemotron and Qwen3 series in accuracy-efficiency trade-offs on Ascend NPUs.
 > [[PDF]](https://arxiv.org/pdf/2505.20155)
 
 ---
