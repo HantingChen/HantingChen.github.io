@@ -7,3 +7,42 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+/* =========================================
+   Hanting's Custom Styles
+   ========================================= */
+
+/* 1. 引入 Google Fonts (Inter 字体，非常干净现代，适合学术) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/* 2. 全局应用新字体 */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+/* 调整标题字体，使其更厚重有力 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 700;
+}
+
+/* 3. 修复左侧侧边栏图标自动变灰的问题 */
+/* 强制让图标和文字保持深色，不透明 */
+.author__urls.social-icons li a {
+    opacity: 1 !important;       /* 取消半透明 */
+    color: #494e52 !important;   /* 设置为深灰色，不再是浅灰 */
+}
+.author__urls.social-icons li a:hover {
+    color: #000000 !important;   /* 鼠标悬停时变成纯黑 */
+    text-decoration: none;
+}
+
+/* 4. (可选) 如果你想隐藏左上角的 "Hanting Chen" 文字，取消下面这行的注释 */
+/* .masthead__title { display: none; } */
+
+/* 5. 调整正文字体大小和行距，让阅读更舒服 */
+.page__content {
+    font-size: 1.1em; /* 稍微大一点点 */
+    line-height: 1.6;
+}
