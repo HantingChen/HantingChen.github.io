@@ -110,33 +110,24 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+title: "Hanting Chen"
+description: "AI Researcher @ Huawei | PKU PhD"
+url: "https://HantingChen.github.io" # 记得改成你的
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name: "Hanting Chen (陈汉亭)"
+  avatar: "/assets/images/profile.jpg" # 请务必上传一张职业照到这个路径
+  bio: "<b>AI Researcher</b><br>Focus on LLM Architecture, Compression & Acceleration."
+  location: "Beijing, China"
+  email: "chenhanting@pku.edu.cn"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap" # 使用这个图标代替
+      url: "https://scholar.google.com/citations?hl=en&user=wZ9N88gAAAAJ"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/HantingChen" # 建议补上
 
 # Site Footer
 footer:
