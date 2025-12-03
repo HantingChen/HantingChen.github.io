@@ -2,7 +2,7 @@
 layout: single
 author_profile: true
 permalink: /
-title: "About Me"
+title: "Hanting Chen's Homepage"
 ---
 
 I am currently a Researcher at **Huawei Technologies** (Beijing). I received my Ph.D. degree from the School of Intelligence Science and Technology, **Peking University (PKU)** in 2022, under the supervision of Prof. Chao Xu.
