@@ -28,6 +28,8 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 ### 🚀 Efficient & On-Device LLMs (2023 - Present)
 
+#### Edge LLMs
+
 **[1] Pangu Embedded: An Efficient Dual-system LLM Reasoner with Metacognition**
 
 **Hanting Chen**, Yasheng Wang, Kai Han, ... Yunhe Wang
@@ -49,6 +51,8 @@ M Zheng, **Hanting Chen**, T Guo, C Zhu, B Zheng, C Xu, Y Wang
 *NeurIPS 2024*
 > **TL;DR:** We propose a model-driven tokenizer construction scheme that optimizes the vocabulary specifically for the target LLM, improving encoding efficiency and model performance.
 > [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2024/file/cdf00c97c0cb2cc35179f03363da6c4f-Paper-Conference.pdf)
+
+#### LLM Compression
 
 **[4] Rethinking 1-bit Optimization Leveraging Pre-trained Large Language Models**
 
