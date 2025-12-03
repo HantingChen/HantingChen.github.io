@@ -32,21 +32,21 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 **[1] Pangu Embedded: An Efficient Dual-system LLM Reasoner with Metacognition**
 
-**Hanting Chen**, Yasheng Wang, Kai Han, ... Yunhe Wang
+***Hanting Chen**, Yasheng Wang, Kai Han, ... Yunhe Wang*
 
 > **TL;DR:** We present **Pangu Embedded**, a reasoning-optimized LLM for Ascend NPUs featuring "Fast & Slow" thinking modes. It utilizes a two-stage training (Distillation & RL with MARS) and a dynamic complexity-aware mode selection to balance latency and reasoning depth.
 > [[PDF]](https://arxiv.org/pdf/2505.22375) [[Model]](https://gitcode.com/ascend-tribe/openPangu-Embedded-7B-V1.1.git)
 
 **[2] Revealing the Power of Post-Training for Small Language Models via Knowledge Distillation**
 
-Miao Rang, Zhenni Bi, Hang Zhou, **Hanting Chen**, ... Yunhe Wang
+*Miao Rang, Zhenni Bi, Hang Zhou, **Hanting Chen**, ... Yunhe Wang*
 
 > **TL;DR:** A systematic post-training pipeline (Curriculum SFT + Offline On-policy KD) that enables 1B-parameter models to achieve SOTA performance. This solution is tailored for deploying high-performance LLMs on resource-constrained **edge devices**.
 > [[PDF]](https://arxiv.org/pdf/2509.26497) [[Model]](https://gitcode.com/ascend-tribe/openPangu-Embedded-1B-V1.1.git)
 
 **[3] Enhancing Large Language Models through Adaptive Tokenizers**
 
-M Zheng, **Hanting Chen**, T Guo, C Zhu, B Zheng, C Xu, Y Wang
+*M Zheng, **Hanting Chen**, T Guo, C Zhu, B Zheng, C Xu, Y Wang*
 
 *NeurIPS 2024*
 > **TL;DR:** We propose a model-driven tokenizer construction scheme that optimizes the vocabulary specifically for the target LLM, improving encoding efficiency and model performance.
@@ -56,14 +56,14 @@ M Zheng, **Hanting Chen**, T Guo, C Zhu, B Zheng, C Xu, Y Wang
 
 **[4] Rethinking 1-bit Optimization Leveraging Pre-trained Large Language Models**
 
-Zhijun Tu, **Hanting Chen**, Siqi Liu, ... Yunhe Wang
+*Zhijun Tu, **Hanting Chen**, Siqi Liu, ... Yunhe Wang*
 
 > **TL;DR:** Unlike existing methods that train 1-bit LLMs from scratch, we enable **1-bit quantization from pre-trained models**. By using consistent progressive training and binary-aware initialization, we significantly reduce training costs while maintaining high accuracy.
 > [[PDF]](https://arxiv.org/pdf/2508.06974)
 
 **[5] Pangu Light: Weight Re-Initialization for Pruning and Accelerating LLMs**
 
-**Hanting Chen**, Jiarui Qin, Jialong Guo, ... Yunhe Wang
+***Hanting Chen**, Jiarui Qin, Jialong Guo, ... Yunhe Wang*
 
 > **TL;DR:** A structured pruning framework for LLMs that solves the "aggressive pruning" degradation problem via novel **Weight Re-Initialization** techniques (CLAP & SLNP). It outperforms Nemotron and Qwen3 series in accuracy-efficiency trade-offs on Ascend NPUs.
 > [[PDF]](https://arxiv.org/pdf/2505.20155)
@@ -76,7 +76,7 @@ Zhijun Tu, **Hanting Chen**, Siqi Liu, ... Yunhe Wang
 
 **[6] Pre-Trained Image Processing Transformer**
 
-**Hanting Chen**, Yunhe Wang, Tianyu Guo, Chang Xu, ... Wen Gao
+***Hanting Chen**, Yunhe Wang, Tianyu Guo, Chang Xu, ... Wen Gao*
 
 *CVPR 2021* <span style="color:red">**(2,600+ Citations)**</span>
 > **TL;DR:** The first Transformer model tailored for low-level vision tasks. By introducing a pre-training strategy on large-scale datasets, **IPT** achieved SOTA performance across multiple tasks (denoising, super-resolution, deraining).
@@ -84,7 +84,7 @@ Zhijun Tu, **Hanting Chen**, Siqi Liu, ... Yunhe Wang
 
 **[7] Image Processing GNN: Breaking Rigidity in Super-Resolution**
 
-Y Tian, **Hanting Chen**, C Xu, Y Wang
+*Y Tian, **Hanting Chen**, C Xu, Y Wang*
 
 *CVPR 2024* <span style="color:red">**(Best Student Paper Runner-up)**</span> 🏆
 > **TL;DR:** We introduce Graph Neural Networks (GNN) into image restoration to break the grid rigidity of CNNs/Transformers, allowing for more flexible long-range dependency modeling.
@@ -92,7 +92,7 @@ Y Tian, **Hanting Chen**, C Xu, Y Wang
 
 **[8] IPT-V2: Efficient Image Processing Transformer using Hierarchical Attentions**
 
-Z Tu, K Du, **Hanting Chen**, ... Y Wang
+*Z Tu, K Du, **Hanting Chen**, ... Y Wang*
 
 <span style="color:red">**NTIRE 2023 Challenge Winner**</span>🏆
 > **TL;DR:** An evolved version of IPT using hierarchical attention mechanisms, which won the **Champion** of the NTIRE 2023 Image Denoising Challenge.
@@ -102,7 +102,7 @@ Z Tu, K Du, **Hanting Chen**, ... Y Wang
 
 **[9] AdderNet: Do we really need multiplications in deep learning?**
 
-**Hanting Chen**, Yunhe Wang, C Xu, B Shi, C Xu, Q Tian, C Xu
+***Hanting Chen**, Yunhe Wang, C Xu, B Shi, C Xu, Q Tian, C Xu*
 
 *CVPR 2020* <span style="color:red">**(Oral Presentation)**</span>
 > **TL;DR:** A pioneering work that replaces massive multiplications in CNNs with cheaper additions (L1-norm distance), significantly reducing energy consumption on hardware while maintaining comparable accuracy.
