@@ -1,48 +1,77 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
-search: false
 ---
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
-
+@import "minimal-mistakes";
 
 /* =========================================
-   Hanting's Custom Styles
+   Hanting's Custom Theme (学术高密版)
    ========================================= */
 
-/* 1. 引入 Google Fonts (Inter 字体，非常干净现代，适合学术) */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+/* 1. 引入 Inter 字体 (比默认的更紧凑、现代) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-/* 2. 全局应用新字体 */
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    /* 解决字体太大的问题：默认是16px甚至更大，这里改小一点 */
+    font-size: 15px !important; 
+    color: #222; /* 字体加深 */
 }
 
-/* 调整标题字体，使其更厚重有力 */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Inter', sans-serif !important;
-    font-weight: 700;
+/* 2. 解决右边空白太多的问题 (最重要) */
+/* 默认布局很窄，我们把它加宽 */
+.page__inner-wrap {
+    float: left; /* 强制靠左 */
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%; /* 占满剩余空间 */
+    max-width: 1200px !important; /* 允许内容更宽 */
+    padding-right: 2em; /* 稍微留点呼吸感，别贴边 */
 }
 
-/* 3. 修复左侧侧边栏图标自动变灰的问题 */
-/* 强制让图标和文字保持深色，不透明 */
+/* 配合加宽，调整整体容器 */
+#main {
+    margin-left: 0;
+    margin-right: 0;
+    /* 如果觉得太宽了，可以适当把 max-width 调小，比如 90% */
+    max-width: 100%; 
+}
+
+/* 3. 修复左侧图标灰色问题 */
 .author__urls.social-icons li a {
-    opacity: 1 !important;       /* 取消半透明 */
-    color: #000000 !important;   /* 设置为深灰色，不再是浅灰 */
+    opacity: 1 !important;       /* 强制不透明 */
+    color: #333 !important;      /* 强制深色 */
 }
 .author__urls.social-icons li a:hover {
-    color: #000000 !important;   /* 鼠标悬停时变成纯黑 */
-    text-decoration: none;
+    color: #c90000 !important;   /* 鼠标放上去变红色(PKU Red)或蓝色 */
 }
 
-/* 4. (可选) 如果你想隐藏左上角的 "Hanting Chen" 文字，取消下面这行的注释 */
+/* 4. 标题样式微调 */
+h1, h2, h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #000;
+    margin-top: 1.5em; /* 标题上方留点空隙 */
+    margin-bottom: 0.5em;
+}
+
+/* 首页 About Me 那个大标题太大了，改小点 */
+.page__title {
+    font-size: 2rem !important; 
+    line-height: 1.2;
+    /* 彻底禁止它显示下划线，也不让它看起来像个链接 */
+    text-decoration: none !important;
+    pointer-events: none; /* 让它变得不能点击 */
+    color: #000 !important;
+}
+
+/* 5. 论文列表文字稍微紧凑点 */
+.page__content p, .page__content li {
+    line-height: 1.6; /* 默认是 1.7-1.8，改小点显得信息密度高 */
+    margin-bottom: 0.5em;
+}
+
+/* 隐藏左上角的 Site Title (如果你觉得左边栏有了名字，上面那个碍眼，就去掉) */
 /* .masthead__title { display: none; } */
-
-/* 5. 调整正文字体大小和行距，让阅读更舒服 */
-.page__content {
-    font-size: 1.1em; /* 稍微大一点点 */
-    line-height: 1.6;
-}
