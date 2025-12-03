@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 /* 强制让图标和文字保持深色，不透明 */
 .author__urls.social-icons li a {
     opacity: 1 !important;       /* 取消半透明 */
-    color: #494e52 !important;   /* 设置为深灰色，不再是浅灰 */
+    color: #000000 !important;   /* 设置为深灰色，不再是浅灰 */
 }
 .author__urls.social-icons li a:hover {
     color: #000000 !important;   /* 鼠标悬停时变成纯黑 */
