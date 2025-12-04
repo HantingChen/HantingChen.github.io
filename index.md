@@ -20,6 +20,7 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 * **[2025.12]** 📄 New paper: **Nexus**! We propose **Higher-Order Attention** to break the low-rank bottleneck of standard Transformers. By dynamically refining Queries/Keys via nested attention loops, it captures intricate multi-hop dependencies with **nearly zero additional parameters**. [[PDF]](https://arxiv.org/abs/2512.03377)
 * **[2025.11]** 🚀 Released **openPangu-R-7B-Diffusion**! It is a 7B diffusion-based LLM (context-causal block diffusion). It achieves **2.5x inference speedup** over autoregressive models and SOTA performance (e.g., **91.9% on GSM8K**, **87.8% on HumanEval**), surpassing LLaDA and SDAR. [[Model]](https://ai.gitcode.com/ascend-tribe/openPangu-R-7B-Diffusion)
 * **[2025.11]** 📄 New paper: **ROOT (Robust Orthogonalized Optimizer)**. We propose a robust optimizer that outperforms Muon and Adam by introducing adaptive Newton iterations and proximal optimization, solving the instability issues in large-scale LLM training. [[PDF]](https://arxiv.org/abs/2511.20626)
+
 ---
 
 ## 📝 Selected Publications
