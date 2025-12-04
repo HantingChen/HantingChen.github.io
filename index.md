@@ -47,7 +47,7 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 **[3] Enhancing Large Language Models through Adaptive Tokenizers**
 
-*M Zheng, **Hanting Chen**, T Guo, C Zhu, B Zheng, C Xu, Y Wang*
+*M Zheng, **Hanting Chen**, Tianyu Guo, ... Yunhe Wang*
 
 *NeurIPS 2024*
 > **TL;DR:** We propose a model-driven tokenizer construction scheme that optimizes the vocabulary specifically for the target LLM, improving encoding efficiency and model performance.
@@ -77,7 +77,7 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 **[6] Pre-Trained Image Processing Transformer**
 
-***Hanting Chen**, Yunhe Wang, Tianyu Guo, Chang Xu, ... Wen Gao*
+***Hanting Chen**, Yunhe Wang, ... Wen Gao*
 
 *CVPR 2021* <span style="color:red">**(2,600+ Citations)**</span>
 > **TL;DR:** The first Transformer model tailored for low-level vision tasks. By introducing a pre-training strategy on large-scale datasets, **IPT** achieved SOTA performance across multiple tasks (denoising, super-resolution, deraining).
@@ -85,7 +85,7 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 **[7] Image Processing GNN: Breaking Rigidity in Super-Resolution**
 
-*Y Tian, **Hanting Chen**, C Xu, Y Wang*
+*Yuchuan Tian, **Hanting Chen**, Chao Xu, Yunhe Wang*
 
 *CVPR 2024* <span style="color:red">**(Best Student Paper Runner-up)**</span> 🏆
 > **TL;DR:** We introduce Graph Neural Networks (GNN) into image restoration to break the grid rigidity of CNNs/Transformers, allowing for more flexible long-range dependency modeling.
@@ -93,7 +93,7 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 **[8] IPT-V2: Efficient Image Processing Transformer using Hierarchical Attentions**
 
-*Z Tu, K Du, **Hanting Chen**, ... Y Wang*
+*Zhijun Tu, Kunpeng Du, **Hanting Chen**, ... Yunhe Wang*
 
 <span style="color:red">**NTIRE 2023 Challenge Winner**</span>🏆
 > **TL;DR:** An evolved version of IPT using hierarchical attention mechanisms, which won the **Champion** of the NTIRE 2023 Image Denoising Challenge.
@@ -103,7 +103,7 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 **[9] AdderNet: Do we really need multiplications in deep learning?**
 
-***Hanting Chen**, Yunhe Wang, C Xu, B Shi, C Xu, Q Tian, C Xu*
+***Hanting Chen**, Yunhe Wang, Chunjing Xu, ... Chang Xu*
 
 *CVPR 2020* <span style="color:red">**(Oral Presentation)**</span>
 > **TL;DR:** A pioneering work that replaces massive multiplications in CNNs with cheaper additions (L1-norm distance), significantly reducing energy consumption on hardware while maintaining comparable accuracy.
