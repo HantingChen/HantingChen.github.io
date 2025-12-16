@@ -74,7 +74,7 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 **[7] Unshackling Context Length: An Efficient Selective Attention Approach through Query-Key Compression**
 
-*Haoyu Wang, Tong Teng, Tianyu Guo, An Xiao, Duyu Tang, **Hanting Chen**, Yunhe Wang*
+*Haoyu Wang, Tong Teng, ... **Hanting Chen**, Yunhe Wang*
 
 > **TL;DR:** We propose **ESA** (Efficient Selective Attention), a novel approach to extend LLM context length (up to **256k**). By compressing query and key vectors for efficient token selection, ESA matches full-attention performance on long-sequence tasks with significantly lower computational cost.
 > [[PDF]](https://arxiv.org/abs/2502.14477)
