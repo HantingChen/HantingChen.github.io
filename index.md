@@ -7,11 +7,11 @@ title: "About Me"
 
 Hello! I'm Hanting Chen.
 
-I am currently a Researcher at **Huawei Technologies** (Beijing). I received my Ph.D. degree from the School of Intelligence Science and Technology, **Peking University (PKU)** in 2022, under the supervision of Prof. Chao Xu. My research focuses on **efficient AI** and **LLM**, bridging the gap between powerful models and resource-constrained devices. 
+I am currently a Researcher at **Huawei Technologies** (Beijing). I received my Ph.D. degree from the School of Intelligence Science and Technology, **Peking University (PKU)** in 2022, under the supervision of Prof. Chao Xu. My research focuses on **efficient AI** and **LLM**, bridging the gap between powerful models and resource-constrained devices. 
 * **Large Language Models (Post-2023):** I am working on efficient and effective LLM architectures, model compression (quantization, pruning), and inference acceleration.
 * **Computer Vision (Pre-2023):** I worked extensively on neural network architecture design (e.g., IPT and AdderNet series).
 
-I have published **50+ papers** in top-tier conferences and journals (NeurIPS, CVPR, ICML, ICCV, TPAMI, etc.) with **10,000+ citations**. I also serve as an **Area Chair for NeurIPS**. 
+I have published **50+ papers** in top-tier conferences and journals (NeurIPS, CVPR, ICML, ICCV, TPAMI, etc.) with **10,000+ citations**. I also serve as an **Area Chair for NeurIPS**. 
 
 ---
 
@@ -29,23 +29,28 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 ### 🚀 Efficient & On-Device LLMs (2023 - Present)
 
-#### Edge LLMs
+**[1] From Next-Token to Next-Block: A Principled Adaptation Path for Diffusion LLMs**
 
-**[1] Pangu Embedded: An Efficient Dual-system LLM Reasoner with Metacognition**
+*Yuchuan Tian, Yuchen Liang, ... **Hanting Chen**, ... Yunhe Wang*
+
+> **TL;DR:** We propose a principled framework to adapt standard Autoregressive (AR) LLMs into Block-Diffusion models without training from scratch. Our model, **NBDiff-7B**, inherits pretrained AR knowledge to achieve SOTA performance among 7B-class diffusion models, offering a compute-efficient path for parallel generation.
+> [[PDF]](https://arxiv.org/pdf/2512.06776)
+
+**[2] Pangu Embedded: An Efficient Dual-system LLM Reasoner with Metacognition**
 
 ***Hanting Chen**, Yasheng Wang, Kai Han, ... Yunhe Wang*
 
 > **TL;DR:** We present a reasoning-optimized LLM featuring "Fast & Slow" thinking modes. It utilizes a two-stage training (Distillation & RL with MARS) and a dynamic complexity-aware mode selection to balance latency and reasoning depth.
 > [[PDF]](https://arxiv.org/pdf/2505.22375) [[Model]](https://gitcode.com/ascend-tribe/openPangu-Embedded-7B-V1.1.git)
 
-**[2] Revealing the Power of Post-Training for Small Language Models via Knowledge Distillation**
+**[3] Revealing the Power of Post-Training for Small Language Models via Knowledge Distillation**
 
 *Miao Rang, Zhenni Bi, Hang Zhou, **Hanting Chen**, ... Yunhe Wang*
 
 > **TL;DR:** A systematic post-training pipeline (Curriculum SFT + Offline On-policy KD) that enables 1B-parameter models to achieve SOTA performance. This solution is tailored for deploying high-performance LLMs on resource-constrained edge devices.
 > [[PDF]](https://arxiv.org/pdf/2509.26497) [[Model]](https://gitcode.com/ascend-tribe/openPangu-Embedded-1B-V1.1.git)
 
-**[3] Enhancing Large Language Models through Adaptive Tokenizers**
+**[4] Enhancing Large Language Models through Adaptive Tokenizers**
 
 *M Zheng, **Hanting Chen**, Tianyu Guo, ... Yunhe Wang*
 
@@ -55,14 +60,14 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 #### LLM Compression
 
-**[4] Rethinking 1-bit Optimization Leveraging Pre-trained Large Language Models**
+**[5] Rethinking 1-bit Optimization Leveraging Pre-trained Large Language Models**
 
 *Zhijun Tu, **Hanting Chen**, Siqi Liu, ... Yunhe Wang*
 
 > **TL;DR:** Unlike existing methods that train 1-bit LLMs from scratch, we enable 1-bit quantization from pre-trained models. By using consistent progressive training and binary-aware initialization, we significantly reduce training costs while maintaining high accuracy.
 > [[PDF]](https://arxiv.org/pdf/2508.06974)
 
-**[5] Pangu Light: Weight Re-Initialization for Pruning and Accelerating LLMs**
+**[6] Pangu Light: Weight Re-Initialization for Pruning and Accelerating LLMs**
 
 ***Hanting Chen**, Jiarui Qin, Jialong Guo, ... Yunhe Wang*
 
@@ -75,7 +80,7 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 #### The Image Processing Transformer (IPT) Series
 
-**[6] Pre-Trained Image Processing Transformer**
+**[7] Pre-Trained Image Processing Transformer**
 
 ***Hanting Chen**, Yunhe Wang, ... Wen Gao*
 
@@ -83,7 +88,7 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 > **TL;DR:** The first Transformer model tailored for low-level vision tasks. By introducing a pre-training strategy on large-scale datasets, **IPT** achieved SOTA performance across multiple tasks (denoising, super-resolution, deraining).
 > [[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Pre-Trained_Image_Processing_Transformer_CVPR_2021_paper.pdf)
 
-**[7] Image Processing GNN: Breaking Rigidity in Super-Resolution**
+**[8] Image Processing GNN: Breaking Rigidity in Super-Resolution**
 
 *Yuchuan Tian, **Hanting Chen**, Chao Xu, Yunhe Wang*
 
@@ -91,7 +96,7 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 > **TL;DR:** We introduce Graph Neural Networks (GNN) into image restoration to break the grid rigidity of CNNs/Transformers, allowing for more flexible long-range dependency modeling.
 > [[PDF]](https://openaccess.thecvf.com/content/CVPR2024/papers/Tian_Image_Processing_GNN_Breaking_Rigidity_in_Super-Resolution_CVPR_2024_paper.pdf)
 
-**[8] IPT-V2: Efficient Image Processing Transformer using Hierarchical Attentions**
+**[9] IPT-V2: Efficient Image Processing Transformer using Hierarchical Attentions**
 
 *Zhijun Tu, Kunpeng Du, **Hanting Chen**, ... Yunhe Wang*
 
@@ -101,11 +106,10 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 #### The AdderNet Series
 
-**[9] AdderNet: Do we really need multiplications in deep learning?**
+**[10] AdderNet: Do we really need multiplications in deep learning?**
 
 ***Hanting Chen**, Yunhe Wang, Chunjing Xu, ... Chang Xu*
 
 *CVPR 2020* <span style="color:red">**(Oral Presentation)**</span>
 > **TL;DR:** A pioneering work that replaces massive multiplications in CNNs with cheaper additions (L1-norm distance), significantly reducing energy consumption on hardware while maintaining comparable accuracy.
 > [[PDF]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_AdderNet_Do_We_Really_Need_Multiplications_in_Deep_Learning_CVPR_2020_paper.pdf)
-
