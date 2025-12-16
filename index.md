@@ -33,21 +33,21 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 *Yuchuan Tian, Yuchen Liang, ... **Hanting Chen**, ... Yunhe Wang*
 
-> **TL;DR:** We propose a principled framework to adapt standard Autoregressive (AR) LLMs into Block-Diffusion models without training from scratch. Our model, **NBDiff-7B**, inherits pretrained AR knowledge to achieve SOTA performance among 7B-class diffusion models, offering a compute-efficient path for parallel generation.
+> **TL;DR:** We propose a principled framework to adapt standard Autoregressive (AR) LLMs into Block-Diffusion models without training from scratch. Our model, **NBDiff-7B**, inherits pretrained AR knowledge to achieve SOTA performance among 7B-class diffusion models.
 > [[PDF]](https://arxiv.org/pdf/2512.06776)
 
 **[2] Pangu Embedded: An Efficient Dual-system LLM Reasoner with Metacognition**
 
 ***Hanting Chen**, Yasheng Wang, Kai Han, ... Yunhe Wang*
 
-> **TL;DR:** We present a reasoning-optimized LLM featuring "Fast & Slow" thinking modes. It utilizes a two-stage training (Distillation & RL with MARS) and a dynamic complexity-aware mode selection to balance latency and reasoning depth.
+> **TL;DR:** We present a reasoning-optimized LLM featuring "Fast & Slow" thinking modes. It utilizes a two-stage training and dynamic complexity-aware mode selection to balance latency and reasoning depth.
 > [[PDF]](https://arxiv.org/pdf/2505.22375) [[Model]](https://gitcode.com/ascend-tribe/openPangu-Embedded-7B-V1.1.git)
 
 **[3] Revealing the Power of Post-Training for Small Language Models via Knowledge Distillation**
 
 *Miao Rang, Zhenni Bi, Hang Zhou, **Hanting Chen**, ... Yunhe Wang*
 
-> **TL;DR:** A systematic post-training pipeline (Curriculum SFT + Offline On-policy KD) that enables 1B-parameter models to achieve SOTA performance. This solution is tailored for deploying high-performance LLMs on resource-constrained edge devices.
+> **TL;DR:** A systematic post-training pipeline (Curriculum SFT + Offline On-policy KD) that enables 1B-parameter models to achieve SOTA performance on resource-constrained edge devices.
 > [[PDF]](https://arxiv.org/pdf/2509.26497) [[Model]](https://gitcode.com/ascend-tribe/openPangu-Embedded-1B-V1.1.git)
 
 **[4] Enhancing Large Language Models through Adaptive Tokenizers**
@@ -58,21 +58,26 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 > **TL;DR:** We propose a model-driven tokenizer construction scheme that optimizes the vocabulary specifically for the target LLM, improving encoding efficiency and model performance.
 > [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2024/file/cdf00c97c0cb2cc35179f03363da6c4f-Paper-Conference.pdf)
 
-#### LLM Compression
-
 **[5] Rethinking 1-bit Optimization Leveraging Pre-trained Large Language Models**
 
 *Zhijun Tu, **Hanting Chen**, Siqi Liu, ... Yunhe Wang*
 
-> **TL;DR:** Unlike existing methods that train 1-bit LLMs from scratch, we enable 1-bit quantization from pre-trained models. By using consistent progressive training and binary-aware initialization, we significantly reduce training costs while maintaining high accuracy.
+> **TL;DR:** We enable 1-bit quantization from pre-trained models using consistent progressive training and binary-aware initialization, significantly reducing training costs while maintaining high accuracy.
 > [[PDF]](https://arxiv.org/pdf/2508.06974)
 
 **[6] Pangu Light: Weight Re-Initialization for Pruning and Accelerating LLMs**
 
 ***Hanting Chen**, Jiarui Qin, Jialong Guo, ... Yunhe Wang*
 
-> **TL;DR:** A structured pruning framework for LLMs that solves the "aggressive pruning" degradation problem via novel Weight Re-Initialization techniques. It outperforms Nemotron and Qwen3 series in accuracy-efficiency trade-offs on Ascend NPUs.
+> **TL;DR:** A structured pruning framework for LLMs that solves the "aggressive pruning" degradation problem via novel Weight Re-Initialization techniques.
 > [[PDF]](https://arxiv.org/pdf/2505.20155)
+
+**[7] Unshackling Context Length: An Efficient Selective Attention Approach through Query-Key Compression**
+
+*Haoyu Wang, Tong Teng, Tianyu Guo, An Xiao, Duyu Tang, **Hanting Chen**, Yunhe Wang*
+
+> **TL;DR:** We propose **ESA** (Efficient Selective Attention), a novel approach to extend LLM context length (up to **256k**). By compressing query and key vectors for efficient token selection, ESA matches full-attention performance on long-sequence tasks with significantly lower computational cost.
+> [[PDF]](https://arxiv.org/abs/2502.14477)
 
 ---
 
@@ -80,7 +85,7 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 #### The Image Processing Transformer (IPT) Series
 
-**[7] Pre-Trained Image Processing Transformer**
+**[8] Pre-Trained Image Processing Transformer**
 
 ***Hanting Chen**, Yunhe Wang, ... Wen Gao*
 
@@ -88,7 +93,7 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 > **TL;DR:** The first Transformer model tailored for low-level vision tasks. By introducing a pre-training strategy on large-scale datasets, **IPT** achieved SOTA performance across multiple tasks (denoising, super-resolution, deraining).
 > [[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Pre-Trained_Image_Processing_Transformer_CVPR_2021_paper.pdf)
 
-**[8] Image Processing GNN: Breaking Rigidity in Super-Resolution**
+**[9] Image Processing GNN: Breaking Rigidity in Super-Resolution**
 
 *Yuchuan Tian, **Hanting Chen**, Chao Xu, Yunhe Wang*
 
@@ -96,7 +101,7 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 > **TL;DR:** We introduce Graph Neural Networks (GNN) into image restoration to break the grid rigidity of CNNs/Transformers, allowing for more flexible long-range dependency modeling.
 > [[PDF]](https://openaccess.thecvf.com/content/CVPR2024/papers/Tian_Image_Processing_GNN_Breaking_Rigidity_in_Super-Resolution_CVPR_2024_paper.pdf)
 
-**[9] IPT-V2: Efficient Image Processing Transformer using Hierarchical Attentions**
+**[10] IPT-V2: Efficient Image Processing Transformer using Hierarchical Attentions**
 
 *Zhijun Tu, Kunpeng Du, **Hanting Chen**, ... Yunhe Wang*
 
@@ -106,7 +111,7 @@ I have published **50+ papers** in top-tier conferences and journals (NeurIPS, C
 
 #### The AdderNet Series
 
-**[10] AdderNet: Do we really need multiplications in deep learning?**
+**[11] AdderNet: Do we really need multiplications in deep learning?**
 
 ***Hanting Chen**, Yunhe Wang, Chunjing Xu, ... Chang Xu*
 
